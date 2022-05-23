@@ -8,10 +8,11 @@
 import UIKit
 
 class ViewController: UIViewController{
-
+    
     // create variable delegate of DiceBrainController
+    
     var delegateBrain = DiceBrainController()
-
+    
     @IBOutlet weak var backGR: UIImageView!
     @IBOutlet weak var firstDice: UIImageView!
     @IBOutlet weak var secondDice: UIImageView!
@@ -28,6 +29,6 @@ class ViewController: UIViewController{
         secondDice.image = delegateBrain.imageArray[Int(arc4random_uniform(5))]
     }
     
-
+    
 }
 

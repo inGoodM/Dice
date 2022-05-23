@@ -19,7 +19,6 @@ class ViewController: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        backGR.layer.opacity = 0.5
         firstDice.image = .init(named: "DiceOne")
         secondDice.image = .init(named: "DiceOne")
     }

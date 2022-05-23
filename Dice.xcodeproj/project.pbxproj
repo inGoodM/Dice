@@ -13,6 +13,7 @@
 		B7920AEB283ACEF500DD75A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7920AE9283ACEF500DD75A8 /* Main.storyboard */; };
 		B7920AED283ACEF600DD75A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7920AEC283ACEF600DD75A8 /* Assets.xcassets */; };
 		B7920AF0283ACEF600DD75A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7920AEE283ACEF600DD75A8 /* LaunchScreen.storyboard */; };
+		B7978C1E283B9B070053E750 /* Floe.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7978C1D283B9B070053E750 /* Floe.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B7920AEC283ACEF600DD75A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7920AEF283ACEF600DD75A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7920AF1283ACEF600DD75A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7978C1D283B9B070053E750 /* Floe.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Floe.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +61,21 @@
 				B7920AE3283ACEF500DD75A8 /* AppDelegate.swift */,
 				B7920AE5283ACEF500DD75A8 /* SceneDelegate.swift */,
 				B7920AE7283ACEF500DD75A8 /* ViewController.swift */,
+				B7978C1C283B9A530053E750 /* Fonts */,
 				B7920AE9283ACEF500DD75A8 /* Main.storyboard */,
 				B7920AEC283ACEF600DD75A8 /* Assets.xcassets */,
 				B7920AEE283ACEF600DD75A8 /* LaunchScreen.storyboard */,
 				B7920AF1283ACEF600DD75A8 /* Info.plist */,
 			);
 			path = Dice;
+			sourceTree = "<group>";
+		};
+		B7978C1C283B9A530053E750 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B7978C1D283B9B070053E750 /* Floe.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7920AF0283ACEF600DD75A8 /* LaunchScreen.storyboard in Resources */,
+				B7978C1E283B9B070053E750 /* Floe.otf in Resources */,
 				B7920AED283ACEF600DD75A8 /* Assets.xcassets in Resources */,
 				B7920AEB283ACEF500DD75A8 /* Main.storyboard in Resources */,
 			);

@@ -23,17 +23,16 @@
                                     <constraint firstAttribute="height" constant="258" id="id2-VL-hPN"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eed-aJ-PLd">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eed-aJ-PLd">
                                 <rect key="frame" x="107" y="718" width="200" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="D3k-7X-LkN"/>
                                     <constraint firstAttribute="height" constant="60" id="f3j-Tr-wQu"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="ROLL" cornerStyle="capsule" titleAlignment="center">
-                                    <fontDescription key="titleFontDescription" name="FloeRegular" family="Floe" pointSize="60"/>
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.82992678880000004" green="0.19352659580000001" blue="0.14356097579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <buttonConfiguration key="configuration" style="gray" title="ROLL" cornerStyle="capsule" titleAlignment="automatic">
+                                    <fontDescription key="titleFontDescription" name="Geliat-ExtraBold" family="Geliat" pointSize="60"/>
+                                    <color key="baseForegroundColor" systemColor="systemRedColor"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="rollBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C2p-Lq-vH4"/>
@@ -87,6 +86,9 @@
         <image name="logoDice" width="200" height="200"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

@@ -12,13 +12,12 @@ class ViewController: UIViewController{
     // create variable delegate of DiceBrainController
     var delegateBrain = DiceBrainController()
 
-    @IBOutlet weak var backGR: UIImageView!
+
     @IBOutlet weak var firstDice: UIImageView!
     @IBOutlet weak var secondDice: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        backGR.layer.opacity = 0.5
         firstDice.image = .init(named: "DiceOne")
         secondDice.image = .init(named: "DiceOne")
     }
